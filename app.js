@@ -84,9 +84,6 @@ async function getFoursquare(business) {
 // 	myMap.buildMap()
 // }
 
-
-
-
 // process foursquare array (done as a code along)
 function processBusinesses(data) {
 	let businesses = data.map((element) => {
@@ -136,6 +133,6 @@ document.getElementById('submit').addEventListener('click', async (event) => {
 	myMap.addMarkers()
 })
 
-let CoordinatesFromUser = 
+
 
 
