@@ -121,9 +121,6 @@ window.onload = async () => {
 
 
 
-
-
-
 // business submit button (done as a code along)
 document.getElementById('submit').addEventListener('click', async (event) => {
 	event.preventDefault()
