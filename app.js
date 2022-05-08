@@ -119,6 +119,7 @@ window.onload = async () => {
 	const coords = await getCoords()
 	myMap.coordinates = coords
 	myMap.buildMap()
+
 }
 
 
