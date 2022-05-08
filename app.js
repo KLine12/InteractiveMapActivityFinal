@@ -50,7 +50,6 @@ const myMap = {
 //fetch(`https://cors-anywhere.herokuapp.com/https://api.foursquare.com/v3/places/search?&query=coffee&limit=5&ll=41.8781%2C-87.6298`, options)
 
 
-
 // get coordinates for the user via geolocation using an api (done as a code along)
 async function getCoords(){
 	const pos = await new Promise((resolve, reject) => {
@@ -78,6 +77,16 @@ async function getFoursquare(business) {
 	let businesses = parsedData.results
 	return businesses
 }
+
+// window.onload = async () => {
+// 	const coords = await getCoords()
+// 	myMap.coordinates = coords
+// 	myMap.buildMap()
+// }
+
+
+
+
 // process foursquare array (done as a code along)
 function processBusinesses(data) {
 	let businesses = data.map((element) => {
@@ -113,7 +122,7 @@ window.onload = async () => {
 }
 
 
-12:58
+
 
 
 
